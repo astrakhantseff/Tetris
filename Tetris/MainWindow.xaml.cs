@@ -83,6 +83,7 @@ public partial class MainWindow : Window
         {
             timer.Stop();
             MessageBox.Show("Game Over!");
+            StartNewGame();
         }
     }
 
